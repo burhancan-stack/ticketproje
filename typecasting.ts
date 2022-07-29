@@ -66,3 +66,15 @@ function gatherInfo<T extends lengthy>(element: T): [T,string]{
 }
 
 gatherInfo(['can','mert']);
+
+interface typecasting {
+
+    [prop:string]:string;
+
+}
+
+
+let bag: typecasting = {
+    'dxerror':'Bilgisayarınıza runtimes dosyalarını kurunuz.'
+}
+
